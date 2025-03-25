@@ -26,6 +26,7 @@ body{
   width: 300px;
 }
 
+
 header{
   width: 1400px;
   font-size: 28px;
@@ -38,8 +39,34 @@ header{
   text-decoration : underline;
 }
 
-a:nth-child(1):hover 
-{ font-size: 38px; transition: 0.3s;}
+header a:nth-child(1):hover
+{font-size: 38px; transition: 0.3s; }
+header a:nth-child(2):hover
+{font-size: 38px; transition: 0.3s; }
+header a:nth-child(3):hover
+{font-size: 38px; transition: 0.3s; }
+header a:nth-child(4):hover
+{font-size: 38px; transition: 0.3s; }
+
+
+
+
+
+
+
+
+
+  section:nth-child(1):hover 
+  { font-size: 38px; transition: 0.3s;}
+  section:nth-child(2):hover 
+  { font-size: 38px; transition: 0.3s;}
+  section:nth-child(3):hover 
+  { font-size: 38px; transition: 0.3s;}
+  section:nth-child(4):hover 
+  { font-size: 38px; transition: 0.3s;}
+
+
+
 
 .productbox{
   position:relative;
@@ -71,8 +98,6 @@ a:nth-child(1):hover
 .coffeeimages{
   display:flex;
   justify-content: center;
-  
-  
 }
 
 .coffeeimages :nth-child(1){
@@ -143,29 +168,25 @@ a:nth-child(1):hover
 
 
 
-
-
-
-
-
-.contents{
+.contents {
   font-size: 28px;
   margin-left: 400px;
   padding: 20px;
-  
 }
 
 
 footer{
-  width: auto;
+  width: 2000px;
   font-size: 18px;
   height: 100px;
   background-color: grey;
   color: white;
-  gap: 25px;
-  display: flex;
   list-style: none;
-  justify-content: center;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  
+
   }
 
 
@@ -173,11 +194,13 @@ section{
   width: 1200px;
   display: flex;
   margin: auto;
+  font-size: 24px;
 }
 
 .post{display:flex;}
 .post:nth-child(odd) {flex-direction : column;} 
 .post:nth-child(even) {flex-direction : column-reverse;} 
+
 .image{
   width: 300px;
   height: 300px; 
@@ -201,13 +224,16 @@ section{
   display:flex;   
   flex-direction: column; 
   justify-content: center; 
-  align-items: center; }
+  align-items: center; 
+}
 
 .desc h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+
 
 
 
