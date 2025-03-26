@@ -11,7 +11,6 @@ body{
   color:#222;
   font-size: 15px;
   font-weight: 300;
-  
 }
 
 .container{
@@ -47,13 +46,6 @@ header a:nth-child(3):hover
 {font-size: 38px; transition: 0.3s; }
 header a:nth-child(4):hover
 {font-size: 38px; transition: 0.3s; }
-
-
-
-
-
-
-
 
 
   section:nth-child(1):hover 
@@ -126,7 +118,7 @@ header a:nth-child(4):hover
   transition: 1s;
 }
 
-.coffeeimages span{ 
+.coffeeimages p{ 
   position:relative;
   right:30px;
   width:600px;
@@ -138,10 +130,10 @@ header a:nth-child(4):hover
 
 
 
-.coffeeimages :nth-child(1):hover {filter:none; width:700px; height:500px;}
-.coffeeimages :nth-child(3):hover {filter:none; width:700px; height:500px;}
-.coffeeimages :nth-child(5):hover {filter:none; width:700px; height:500px;}
-.coffeeimages :nth-child(7):hover {filter:none; width:700px; height:500px;}
+.coffeeimages :nth-child(1):hover {filter:none; width:500px; height:500px;}
+.coffeeimages :nth-child(3):hover {filter:none; width:500px; height:500px;}
+.coffeeimages :nth-child(5):hover {filter:none; width:500px; height:500px;}
+.coffeeimages :nth-child(7):hover {filter:none; width:500px; height:500px;}
 
 
 
@@ -154,7 +146,7 @@ header a:nth-child(4):hover
 .Displays{display: flex;}
 
 
-.coffeeimages span:hover{
+.coffeeimages p:hover{
   position:relative;
   width:5000px;
   height:500px;
@@ -232,9 +224,3 @@ section{
   font-weight: bold;
   margin-bottom: 10px;
 }
-
-
-
-
-
-
