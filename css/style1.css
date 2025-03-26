@@ -1,5 +1,4 @@
 @import url(reset.css);
-@import url(font.css);
 @import url(layout.css);
 @keyframes title-ani{
   0%{transform: translateX(-100%);}
