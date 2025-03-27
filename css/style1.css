@@ -129,10 +129,10 @@ header a:nth-child(4):hover
 
 
 
-.coffeeimages :nth-child(1):hover {filter:none; width:500px; height:500px;}
-.coffeeimages :nth-child(3):hover {filter:none; width:500px; height:500px;}
-.coffeeimages :nth-child(5):hover {filter:none; width:500px; height:500px;}
-.coffeeimages :nth-child(7):hover {filter:none; width:500px; height:500px;}
+.coffeeimages :nth-child(1):hover {filter:none; width:600px; height:600px;}
+.coffeeimages :nth-child(3):hover {filter:none; width:600px; height:600px;}
+.coffeeimages :nth-child(5):hover {filter:none; width:600px; height:600px;}
+.coffeeimages :nth-child(7):hover {filter:none; width:600px; height:600px;}
 
 
 
@@ -174,8 +174,6 @@ footer{
   display:flex;
   justify-content:center;
   gap:20px;
-  
-
   }
 
 
