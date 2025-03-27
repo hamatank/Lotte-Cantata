@@ -1,5 +1,4 @@
 @import url(reset.css);
-
 @keyframes title-ani{
   0%{transform: translateX(-100%);}
   100%{transform: translateX(100%);}
@@ -39,6 +38,8 @@ header{
   gap:30px;
   text-decoration : underline;
 }
+
+<a name='title1'></a> <p>제목 1</p>
 
 header a:nth-child(1):hover
 {font-size: 38px; transition: 0.3s; }
@@ -219,3 +220,5 @@ section{
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+
