@@ -31,8 +31,6 @@ body{
   height: 280px;
   position: relative;
   left: 65px;
-
-
 }
 
 
@@ -72,9 +70,8 @@ header a:nth-child(4):hover
 
 .productbox{
   position:relative;
-  left: 500px;
   border: 1px solid transparent;
-  width: 900px;
+  width: 2000px;
   overflow:hidden;
 }
 
@@ -84,8 +81,8 @@ header a:nth-child(4):hover
   position: relative;
   display: inline-block;
   white-space: nowrap; 
-  animation: title-ani 5s linear infinite;
-  transition: 1s;
+  animation: title-ani 5s linear infinite alternate;
+  transition: 5s;
 }
 
 .products:hover{
@@ -239,6 +236,4 @@ section{
 
 .fixedimage:hover{
 opacity:1;
-
-
 }
